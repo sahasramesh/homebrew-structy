@@ -7,10 +7,10 @@ class Structycli < Formula
     # Additional configuration if needed
   
     def install
-      bin.install "structycli"
+      bin.install "structycli-release"
     end
   
     test do
-      system "#{bin}/structycli", "--version"
+      system "#{bin}/structycli-release", "--version"
     end
   end
